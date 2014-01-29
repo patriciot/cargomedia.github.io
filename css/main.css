@@ -862,3 +862,102 @@ code {
   margin: 0;
   padding: 0;
 }
+
+
+/* Patricio 404 */
+.bigStripe{
+  overflow: hidden;
+}
+h1.e404{
+  font-size: 500px;
+  position: absolute;
+  top: -450px;
+  left: 0px;
+  z-index:0;
+  opacity:0.1;
+  transform:rotate(-7deg);
+  -webkit-transform:rotate(-7deg);
+  overflow: hidden;
+  max-width:85%;
+  height:600px;
+}
+#tv{
+  width:250px;
+  height:200px;
+  background-color:#FFE3A1;
+  border-radius:20px;
+  clear:both;
+  display:block;
+  margin:0 auto;
+  position:relative;
+}
+  #tv #screen{
+    width:230px;
+    height:150px;
+    margin:auto;
+    top:10px;
+    background-image:url('http://media.giphy.com/media/Vuw9m5wXviFIQ/giphy.gif');
+    background-size: cover;
+    box-shadow:inset 0 0 10px #000000;
+    border-radius:15px;
+    display:block;
+    position:relative;
+    overflow: hidden;
+  }
+    #tv #screen #noise{
+      width:230px;
+      height:150px;
+      background-size: cover;
+      background-image: url('http://demensen.be/images/img-tv-noise.gif');
+      display:block;
+      opacity:0.1;
+    }
+
+  #tv #controls{
+    width:230px;
+    display:block;
+    margin:auto;
+    height:70px;
+    top:15px;
+    position:relative;
+  }
+
+  #tv #controls .btn{
+    width:20px;
+    height:20px;
+    border-radius: 10px;
+    background: #4D390C;
+    display:block;
+    margin-top:4px;
+  }
+    #tv #controls .btn.left{float:left}
+    #tv #controls .btn.right{float:right}
+
+    #tv #controls #brand{
+      display:block;
+      float:left;
+      margin-left:59px;
+      margin-top:5px;
+      width:80px;
+      height:16px;
+    }
+    #tv #controls #brand .left{
+      height:0px;
+      width:0px;
+      border-right:40px solid #C9BDAF;
+      border-top:8px solid #FFE3A1;
+      border-bottom:8px solid #FFE3A1;
+      float:left;
+      margin:0;
+    }
+    #tv #controls #brand .right{
+      height:0px;
+      width:0px;
+      border-left:40px solid #C9BDAF;
+      border-top:8px solid #FFE3A1;
+      border-bottom:8px solid #FFE3A1;
+      float:left;
+      margin:0;
+    }
+
+p.info{ font-size: 0.6em;}
